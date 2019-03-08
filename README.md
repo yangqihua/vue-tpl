@@ -1,4 +1,4 @@
-# eostoke
+# vue-tpl
 
 ## Project setup
 ```
