@@ -7,7 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@antv/f2": "^3.3.5",
     "axios": "^0.18.0",
+    "muse-ui": "^3.0.2",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -15,7 +17,8 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-service": "^3.4.0",
-    "less": "^3.0.4",
+    "babel-plugin-import": "^1.11.0",
+    "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.21"
   },

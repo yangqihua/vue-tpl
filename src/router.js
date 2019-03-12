@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Frame from './components/main/Frame'
-import Example from './views/Example'
+// import Example from './views/Example'
+import Home from './views/Home'
 
 Vue.use(Router)
 
@@ -14,10 +15,10 @@ export default new Router({
             children: [
                 {
                     path: '/',
-                    name: 'example',
-                    component: Example,
+                    name: 'home',
+                    component: Home,
                     meta: {
-                        title: 'Example',
+                        title: 'EOS GLOBAL',
                     }
                 },
             ]
